@@ -7,9 +7,9 @@ app.get('/', function(request, response) {
     response.send({
         'author' : 'Jignesh Rathod',
         'author_url' : 'https://github.com/Jignesh4414',
-        'base_url' : 'https://useless-facts.sameerkumar.website',
+        'base_url' : 'https://github.com/Jignesh4414',
         'project_name' : 'computer-api',
-        'project_url' : 'https://github.com/Jignesh4414/'
+        'project_url' : 'https://github.com/Jignesh4414/computer-facts'
     })
 });
 app.get('/api', function(request, response) {
