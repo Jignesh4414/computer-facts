@@ -5,11 +5,11 @@ const helpers = require('./helpers');
 const app = express();
 app.get('/', function(request, response) {
     response.send({
-        'author' : 'Sameer Kumar',
-        'author_url' : 'https://www.sameerkumar.website',
+        'author' : 'Jignesh Rathod',
+        'author_url' : 'https://github.com/Jignesh4414',
         'base_url' : 'https://useless-facts.sameerkumar.website',
-        'project_name' : 'Useless Facts API',
-        'project_url' : 'https://github.com/sameerkumar18/useless-facts-api'
+        'project_name' : 'computer-api',
+        'project_url' : 'https://github.com/Jignesh4414/'
     })
 });
 app.get('/api', function(request, response) {
